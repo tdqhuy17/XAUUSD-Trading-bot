@@ -38,17 +38,14 @@ ENV/
 .ipynb_checkpoints/
 
 # Model files (large)
-models/*.pt
-models/*.pkl
-models/*.zip
-!models/.gitkeep
+models/
 
 # Logs
 logs/
+ref/
 *.log
 
 # Data files (large)
-data/*.csv
 data/*.parquet
 !data/.gitkeep
 
@@ -60,5 +57,5 @@ secrets.yaml
 # OS
 .DS_Store
 Thumbs.db"models/" 
-models/
-ref/
+
+
