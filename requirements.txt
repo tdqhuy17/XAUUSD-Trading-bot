@@ -1,0 +1,80 @@
+# ===========================================
+# Trading Bot - Requirements
+# ===========================================
+# Multi-Timeframe SAC Reinforcement Learning Trading System
+# 
+
+# ===========================================
+# Core Dependencies
+# ===========================================
+
+# Python >= 3.10 recommended
+# Deep Learning
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Reinforcement Learning
+gymnasium>=0.29.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# ===========================================
+# Visualization & Progress
+# ===========================================
+
+matplotlib>=3.7.0
+tqdm>=4.66.0
+
+# ===========================================
+# Configuration & Utilities
+# ===========================================
+
+python-dotenv>=1.0.0
+
+# ===========================================
+# GPU Support (Choose one)
+# ===========================================
+
+# For NVIDIA GPU (CUDA) - uncomment if needed
+# torch --index-url https://download.pytorch.org/whl/cu118
+
+# For AMD GPU (DirectML) - uncomment if needed
+# torch-directml>=0.2.0
+
+# ===========================================
+# Optional: MetaTrader5 Integration
+# ===========================================
+
+# Uncomment for live trading with MT5
+# MetaTrader5>=5.0.0
+
+# ===========================================
+# Optional: Technical Analysis
+# ===========================================
+
+# Uncomment if you want additional TA library
+# ta-lib>=0.4.28  # Requires separate binary installation
+
+# ===========================================
+# Development Dependencies (optional)
+# ===========================================
+
+# Testing
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Code Quality
+# black>=23.0.0
+# isort>=5.12.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+
+# Documentation
+# sphinx>=6.0.0
+# sphinx-rtd-theme>=1.2.0
+
+# Jupyter (for analysis)
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0

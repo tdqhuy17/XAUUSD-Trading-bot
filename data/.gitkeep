@@ -1,0 +1,6 @@
+# This file ensures the data directory is tracked by git
+# Data files (*.csv, *.parquet) are excluded via .gitignore
+# 
+# Place your XAUUSD M1 data files here:
+# Expected format: DAT_ASCII_XAUUSD_M1_YYYY.csv
+# CSV format: datetime;open;high;low;close;volume (semicolon-separated, no header)
